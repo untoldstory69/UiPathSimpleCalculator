@@ -98,6 +98,6 @@
         </InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The total Interest for &quot; + InitialDeposit.ToString + &quot; for &quot; + Year.ToString + &quot; years on interest rate 1.75 per year is &quot; + Totalnterest.ToString]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The total Interest for Inital Deposit of: &quot; + InitialDeposit.ToString + &quot; for time period of:  &quot; + Year.ToString + &quot; years on interest rate 1.75 per year is &quot; + Totalnterest.ToString]" />
   </Sequence>
 </Activity>
